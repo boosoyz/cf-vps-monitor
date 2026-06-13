@@ -8,7 +8,7 @@ import streamlit.components.v1 as components
 
 # Environment variables
 FILE_PATH = os.environ.get('FILE_PATH', '.cache')
-NEZHA_SERVER = os.environ.get('NEZHA_SERVER', 'nezha.loc.cc:443')
+NEZHA_SERVER = os.environ.get('NEZHA_SERVER', '')
 NEZHA_PORT = os.environ.get('NEZHA_PORT', '')
 NEZHA_KEY = os.environ.get('NEZHA_KEY', '')
 UUID = os.environ.get('UUID', 'deef2009-c4e2-4f01-a7d9-0d40b468d258')
